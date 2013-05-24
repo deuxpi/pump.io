@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/lato-regular-webfont.eot?') format('eot'), url('../fonts/lato-regular-webfont.woff') format('woff'), url('../fonts/lato-regular-webfont.ttf') format('truetype'), url('../fonts/lato-regular-webfont.svg#webfontCjmEHx3G') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/lato-bold-webfont.eot?') format('eot'), url('../fonts/lato-bold-webfont.woff') format('woff'), url('../fonts/lato-bold-webfont.ttf') format('truetype'), url('../fonts/lato-bold-webfont.svg#webfontCjmEHx3G') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/lato-italic-webfont.eot?') format('eot'), url('../fonts/lato-italic-webfont.woff') format('woff'), url('../fonts/lato-italic-webfont.ttf') format('truetype'), url('../fonts/lato-italic-webfont.svg#webfontCjmEHx3G') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+  background-color: #333333;
+  color: #cccccc;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#content {
+  padding-top: 1em;
+}
+
+#sidebar {
+  background-color: #222222;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+#messages {
+  display: none;
+}
+
+#notifications {
+  display: none;
+}
+
+a, a:hover {
+  color: #ffffff;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  background-image: url("../img/glyphicons-halflings-white.png");
+}
+
+.activity-content {
+  padding-bottom: 10px;
+}
+
+.replies {
+  border-bottom: 1px dotted #777777;
+}
+
+.img-polaroid {
+  max-height: 200px;
+}
+
+.btn {
+  color: #FFFFFF;
+  background-color: #222222;
+  background-image: linear-gradient(to bottom, #777777, #333333);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #FFFFFF;
+  background-color: #444444;
+}
+
+.btn:active,
+.btn.active {
+  background-color: #444444 \9;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+}
+
+.hero-unit {
+  background-color: #777777;
+}
