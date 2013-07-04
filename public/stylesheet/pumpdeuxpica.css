@@ -57,8 +57,13 @@ a, a:hover {
   padding-bottom: 10px;
 }
 
-.replies {
-  border-bottom: 1px dotted #777777;
+#major-stream .replies .media {
+  background-color: #333333;
+  border-left: 0;
+}
+
+#major-stream .media {
+  border-bottom: 0;
 }
 
 .img-polaroid {
@@ -70,6 +75,7 @@ a, a:hover {
   background-color: #222222;
   background-image: linear-gradient(to bottom, #777777, #333333);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #222222;
 }
 
 .btn:hover,
