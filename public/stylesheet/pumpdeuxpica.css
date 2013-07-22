@@ -57,7 +57,7 @@ a, a:hover {
   padding-bottom: 10px;
 }
 
-#major-stream .replies .media {
+.replies .media, #major-stream .replies .media {
   background-color: #333333;
   border-left: 0;
 }
