@@ -99,3 +99,7 @@ a, a:hover {
 .hero-unit {
   background-color: #777777;
 }
+
+h1 {
+  font-size: 120%;
+}
